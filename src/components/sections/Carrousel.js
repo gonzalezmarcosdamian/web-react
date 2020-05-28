@@ -31,7 +31,10 @@ const Carrousel = () => {
                   alt='Third slide'
                 />
 
-                <Carousel.Caption></Carousel.Caption>
+                <Carousel.Caption>
+                  {/* <h3>React JS</h3>
+                  <p>Framework creado por Facebook.</p> */}
+                </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img

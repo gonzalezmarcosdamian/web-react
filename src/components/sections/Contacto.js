@@ -1,4 +1,5 @@
 import React, { useState, Fragment } from "react";
+import { css } from "@emotion/core";
 
 //import swal from "sweetalert";
 
@@ -116,6 +117,9 @@ const Contacto = () => {
                   <div className='col-md-6'>
                     <div className='form-group'>
                       <textarea
+                        css={css`
+                          height: 600px;
+                        `}
                         className='form-control'
                         id='message'
                         name='message'
@@ -123,7 +127,7 @@ const Contacto = () => {
                         required='required'
                         value={message}
                         onChange={onChangeCampo}
-                        data-validation-required-message='Please enter a message.'></textarea>
+                        data-validation-required-message='Ingrese por favor un mensaje.'></textarea>
                       <p className='help-block text-danger'></p>
                     </div>
                   </div>
@@ -133,9 +137,9 @@ const Contacto = () => {
                     <div id='success'></div>
                     <button
                       type='submit'
-                      class='btn btn-primary btn-lg '
+                      className='btn btn-primary btn-lg '
                       data_but='btn-sm'>
-                      <i class='fa fa-location-arrow'></i>
+                      <i className='fa fa-location-arrow'></i>
                     </button>
                   </div>
                 </div>

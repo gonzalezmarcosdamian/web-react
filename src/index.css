@@ -37,6 +37,7 @@ header {
   padding: 1rem 0;
 }
 .contacto {
+  margin-top: 20px;
   background-image: url(./assets/img/contacto.jpg);
   text-align: center;
 }
@@ -76,7 +77,7 @@ ul.social-buttons li a:hover {
     "Segoe UI Symbol", "Noto Color Emoji";
 }
 .page-section {
-  margin: 50px;
+  padding: 20px;
 }
 .titulo {
   margin: 20px;
